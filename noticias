@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina - Noticias</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Argentina: Tierra de Diversidad</h1>
+        <p>Explora la cultura, gastronomía y lugares increíbles de Argentina.</p>
+    </header>
+
+    
+    <main class="noticias">
+        <article>
+            <h2>Nuevo Festival de Tango en Buenos Aires</h2>
+            <p>Buenos Aires se prepara para recibir a amantes del tango de todo el mundo con un nuevo festival que promete ser una experiencia inolvidable. Con espectáculos en vivo, clases magistrales y competencias, este evento busca resaltar la esencia del tango, declarada Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO. Grandes figuras del género, tanto nacionales como internacionales, participarán en el festival, ofreciendo presentaciones en escenarios icónicos de la ciudad. Además, se organizarán milongas al aire libre para que el público pueda bailar y disfrutar de la música en un ambiente auténtico. Este festival busca consolidarse como una de las celebraciones más importantes del tango a nivel mundial.</p>
+        </article>
+
+        <article>
+            <h2>Descubren un Nuevo Glaciar en la Patagonia</h2>
+            <p>Un equipo de científicos argentinos ha anunciado el descubrimiento de un nuevo glaciar en la región de la Patagonia, un hallazgo que podría tener importantes implicaciones para el estudio del cambio climático. Ubicado en una zona remota de la provincia de Santa Cruz, este glaciar ha sido identificado gracias a imágenes satelitales y expediciones terrestres. Según los expertos, su tamaño y composición podrían ayudar a comprender mejor la dinámica de los glaciares en la región y su relación con el calentamiento global. Investigaciones futuras buscarán determinar su impacto en el ecosistema y la disponibilidad de agua en el sur del país.</p>
+        </article>
+
+        <article>
+            <h2>El Asado Argentino, Patrimonio Cultural</h2>
+            <p>El tradicional asado argentino ha sido declarado Patrimonio Cultural Inmaterial de la Nación, reconociendo su importancia en la identidad del país. Más que una simple comida, el asado es un ritual que reúne a familias y amigos alrededor del fuego, compartiendo cortes de carne cuidadosamente seleccionados y cocinados a la parrilla. La técnica de cocción lenta, la elección de la leña o carbón y la pasión de los parrilleros son aspectos fundamentales de esta tradición. Este reconocimiento no solo destaca la relevancia gastronómica del asado, sino también su papel en la cultura y el sentido de comunidad de los argentinos.</p>
+        </article>
+
+        <article>
+            <h2>Nuevas Rutas de Vuelo a Bariloche</h2>
+            <p>Las aerolíneas han anunciado nuevas rutas de vuelo hacia San Carlos de Bariloche, facilitando el acceso a uno de los destinos turísticos más populares de Argentina. Estas conexiones incluirán vuelos directos desde distintas ciudades del país y de América Latina, permitiendo a más visitantes disfrutar de los paisajes andinos, los lagos cristalinos y la nieve en invierno. La ampliación de rutas aéreas busca potenciar el turismo en la región y reducir los tiempos de viaje para los pasajeros. Con este nuevo impulso, Bariloche se consolida como un destino ideal tanto para los amantes de la naturaleza como para quienes buscan experiencias gastronómicas y culturales en la Patagonia.</p>
+        </article>
+
+        <article>
+            <h2>Feria Gastronómica en Mendoza</h2>
+            <p>Mendoza, la tierra del vino, se viste de fiesta con una nueva edición de su feria gastronómica, un evento que reúne a los mejores chefs y productores de la región. Durante varios días, los visitantes podrán degustar platos típicos, maridados con los reconocidos vinos mendocinos, en un ambiente de celebración y aprendizaje. La feria incluirá clases de cocina, catas guiadas y presentaciones en vivo de expertos en enología y gastronomía. Además, los pequeños productores tendrán la oportunidad de mostrar sus productos artesanales, promoviendo el desarrollo del sector local. Esta feria no solo resalta la riqueza culinaria de Mendoza, sino que también fortalece el turismo enológico en la provincia.</p>
+        </article>
+
+        
+        <aside class="anuncio">
+            <p><iframe src="https://bodegasmendoza.com/los-vinos/"></iframe></p>
+        </aside>
+        <aside class="anuncio">
+            <p><iframe src="https://www.evaneos.es/patagonia/?utm_source=google&utm_medium=cpc&utm_campaign=G_DES_AMEA-Patagonia_ES_es_ES_D:305&utm_term=agencia%20patagonia&gad_source=1&gclid=Cj0KCQiAkoe9BhDYARIsAH85cDMSnaSKV6UsxnwP2rH3iCOAhD_5CMHH0-AXx319xsG6ro8ctR9gRzMaAuAgEALw_wcB&gclsrc=aw.ds"></iframe></p>
+        </aside>
+
+        
+        <button class="volver" onclick="window.location.href='index.html'">Volver a la Página Principal</button>
+    </main>
+
+    
+    <footer>
+        <p>Contacto: jrlacoste2015@gmail.com</p>
+    </footer>
+</body>
+</html>
