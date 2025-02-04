@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina - Alta</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Argentina: Tierra de Diversidad</h1>
+        <p>Explora la cultura, gastronomía y lugares increíbles de Argentina.</p>
+    </header>
+
+   
+    <main class="formulario">
+        <form action="index.html" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni" pattern="\d{8}[A-Z]" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" pattern="C\/[A-Za-z]+\sNº\d+\sP[A-Za-z]?" required>
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" required>
+
+            <label for="codigo-postal">Código Postal:</label>
+            <input type="text" id="codigo-postal" name="codigo-postal" pattern="\d{5}" required>
+
+            <label for="pais">País:</label>
+            <input type="text" id="pais" name="pais" required>
+
+            <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha-nacimiento" name="fecha-nacimiento">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="ejemplo@correo.es">
+
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" pattern="[A-Za-z]{1,7}[A-Za-z0-9]{5}&\d{2}" required>
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="aficiones">Aficiones:</label>
+            <input type="text" id="aficiones" name="aficiones" list="aficiones-list">
+            <datalist id="aficiones-list">
+                <option value="Fútbol">
+                <option value="Tango">
+                <option value="Cocina">
+                <option value="Viajes">
+            </datalist>
+
+            <label for="foto">Subir Foto de Perfil:</label>
+            <input type="file" id="foto" name="foto">
+
+            <div class="botones">
+                <button type="reset">Borrar</button>
+                <button type="submit">Enviar</button>
+                <button type="button" onclick="window.location.href='index.html'">Cancelar</button>
+            </div>
+        </form>
+    </main>
+
+    
+    <footer>
+        <p>Contacto: jrlacoste2015@gmail.com</p>
+    </footer>
+</body>
+</html>
