@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina - Página Principal</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+</head>
+<body>
+ 
+    <header>
+        <h1>Argentina</h1>
+        <p>Explora la cultura, gastronomía y lugares increíbles de Argentina.</p>
+
+    </header>
+
+  
+    <nav>
+        <ul>
+            <li><a href="alta.html">Alta</a></li>
+            <li><a href="https://www.argentina.gob.ar" target="_blank">Gobierno de Argentina</a></li>
+            <li><a href="https://www.lanacion.com.ar" target="_blank">La Nación</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+        </ul>
+    </nav>
+
+    <aside class="ad-left">
+        <p><iframe src="https://www.edreams.es/ofertas/vuelos/aerolinea/AR/aerolineas-argentinas/?mktportal=google&utm_id=go_cmp-11063133740_adg-105274976301_ad-462495175353_dsa-320732865019_dev-c_ext-61449584232_locphy-9221297_mtype-_ntw-g&gad_source=1&gclid=CjwKCAiA74G9BhAEEiwA8kNfpSH6nUY0rp9iesCoQDb4VTGGszZDGhcS9qaOOLIUBCRmuHUKTULlyxoCQuYQAvD_BwE" frameborder="0"></iframe></p>
+    </aside>
+    <aside class="ad-right">
+        <p><iframe src="https://www.ole.com.ar"></iframe></p>
+    </aside>
+
+   
+    <main>
+        <div id="cultura">
+            <h2>Cultura Argentina</h2>
+            <p>Argentina es un país con una rica herencia cultural influenciada por la inmigración europea, especialmente italiana y española. Es famoso por el tango, el fútbol y su literatura, con figuras como Borges y Cortázar. La pasión por el mate y las reuniones sociales reflejan su espíritu cálido y acogedor. Su arte y música combinan tradición y modernidad, con el folclore y el rock nacional como pilares.</p>
+            <img src="descarga.jpeg" alt="Cultura Argentina">
+        </div>
+
+        <div id="comida">
+            <h2>Comida Típica</h2>
+            <p>La gastronomía argentina destaca por sus asados, con cortes de carne de alta calidad cocidos a la parrilla. Las empanadas, el locro y la milanesa son platos tradicionales muy populares. El dulce de leche es un clásico en postres como los alfajores y el flan. También es común el consumo de pastas y pizzas, influencia de la inmigración italiana. Todo se acompaña con mate, la infusión nacional por excelencia.</p>
+            <img src="comida.jpeg" alt="Comida Argentina">
+        </div>
+
+        <div id="lugares">
+            <h2>Lugares para Visitar</h2>
+            <p>Buenos Aires enamora con su mezcla de historia y modernidad, desde San Telmo hasta Puerto Madero. La Patagonia ofrece paisajes impresionantes con el Glaciar Perito Moreno y Bariloche. Iguazú deslumbra con sus majestuosas cataratas, una de las maravillas naturales del mundo. Mendoza es ideal para el turismo enológico, con viñedos de renombre. Salta y Jujuy destacan por sus montañas coloridas y la riqueza de su cultura andina.</p>
+            <video controls>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Qz4wGlzxxic?si=XMI7nsplJynBmmHj&amp;start=41" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            </video>
+        </div>
+        <div id="deportes">
+            <h2>Deporte en Argentina</h2>
+            <p>En Argentina, el deporte es una pasión que trasciende generaciones y une a la sociedad. El fútbol es el más popular, con una cultura ferviente reflejada en clubes históricos como Boca Juniors y River Plate, además de figuras legendarias como Maradona y Messi. Otros deportes, como el rugby, el básquet y el hockey sobre césped, también generan gran entusiasmo y éxito internacional. La tradición del deporte se fomenta desde la infancia, con fuerte presencia en escuelas y clubes barriales. Más que entretenimiento, el deporte en Argentina es identidad, orgullo y una forma de expresión cultural.</p>
+            <img src="Festejos_en_el_Obelisco_de_Buenos_Aires_por_la_obtención_de_la_Copa_del_Mundo_de_Fútbol_2022.jpg" alt="mundial">
+
+        </div>
+    </main>
+
+  
+    <footer>
+        <p>Contacto: jrlacoste2015@gmail.com</p>
+    </footer>
+</body>
+</html>
